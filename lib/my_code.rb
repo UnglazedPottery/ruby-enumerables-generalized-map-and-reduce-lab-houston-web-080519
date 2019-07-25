@@ -8,6 +8,7 @@ def map(source_array)
   array2
 end
 
+
 def reduce(source_array, start = nil)
   if start
     total = start
@@ -23,5 +24,5 @@ def reduce(source_array, start = nil)
   total
 end
 
-#reduce(source_array){|memo, n| memo && n}
+
 
